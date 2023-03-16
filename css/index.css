@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+
+body {
+  font-family: 'Rubik Iso', cursive;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  color: black;
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  margin: 0;
+}
+
+.bg {
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  background-image: url('https://cdn3.vectorstock.com/i/1000x1000/61/72/nerd-face-emoji-clever-emoticon-with-glasses-vector-28926172.jpg');
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  background-repeat: none;
+}
