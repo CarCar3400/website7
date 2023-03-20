@@ -1,14 +1,18 @@
-const jokeE1 = document.getElementById('joke')
+const jokeEl = document.getElementById('joke')
 const jokeBtn = document.getElementById('jokeBtn')
+
 
 generateJoke()
 
+
 jokeBtn.addEventListener('click', generateJoke)
 
-async function generateJoke(){
-    const response = await fetch(https://icanhazdadjoke.com', {
-        headers: {Accept: 'application'/json}
+
+async function generateJoke() {
+    const response = await fetch('https://icanhazdadjoke.com', {
+        headers: {Accept: 'application/json'}
     })
+
 
     const data = await response.json()
     jokeEl.innerHTML = data.joke
