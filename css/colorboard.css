@@ -7,5 +7,16 @@ body {
     margin: 0;
     overflow: hidden;
     justify-content: center;
-    
+}
+
+.container {
+
+}
+
+.square {
+    height: 16px;
+    width: 16px;
+    margin: 2px;
+    background-color: #1d1d1d;
+
 }
