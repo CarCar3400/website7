@@ -4,9 +4,9 @@ body {
     display: flex;
     height: 100vh;
     align-items: center;
+    justify-content: center;
     margin: 0;
     overflow: hidden;
-    justify-content: center;
 }
 
 .container {
@@ -21,5 +21,8 @@ body {
     margin: 2px;
     background-color: #1d1d1d;
     transition: 2s ease;
+}
 
+.square:hover {
+    transition-duration: 0s;
 }
