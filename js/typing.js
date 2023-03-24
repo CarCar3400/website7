@@ -2,7 +2,10 @@ const textEl = document.getElementById('text')
 const speedEl = document.getElementById('speed')
 const text = "I wuv petite wittle Cody Kens :3"
 let idx = 1
-let speed = 300
+let speed = 300 / speedEl.value
+speedEl.addEventListener('input', (element) => {
+    speed = 300 / element.target.value
+})
 
 writeText()
 
@@ -14,5 +17,4 @@ function writeText(){
         idx = 1
     }
     setTimeout(writeText, speed)
-
 }
