@@ -10,5 +10,12 @@ body {
     align-items: center;
     overflow: hidden;
     margin: 0;
+}
 
+.container {
+    position: absolute;
+    bottom: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: rgba(0,0,0,1)
 }
