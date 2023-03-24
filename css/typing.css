@@ -17,5 +17,19 @@ body {
     bottom: 20px;
     padding: 10px 20px;
     font-size: 18px;
-    background-color: rgba(0,0,0,1)
+    background-color: rgba(0,0,0,.3)
+}
+
+input {
+    width: 50px;
+    padding: 5px;
+    font-size: 18px;
+    background-color: darksalmon;
+    border: none;
+    text-align: center;
+}
+
+input:focus {
+    outline: none;
+    
 }
